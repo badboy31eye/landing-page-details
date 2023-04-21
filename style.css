@@ -1,0 +1,198 @@
+/* Write some CSS below */
+@import url("https://use.typekit.net/amf2owv.css");
+
+body {
+  background-color: #fbfbfb;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-family: "a-day-without-sun-text", sans-serif;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#header {
+  width: 100%;
+  height: 70px;
+  list-style: none;
+  text-align: right;
+}
+
+#page-up {
+  width: 100%;
+  height: 70px;
+  list-style: none;
+  text-align: center;
+}
+
+.card-white-text {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fbfbfb;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #5c5c5c;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: black;
+  font-size: larger;
+}
+
+.list-line li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+  margin: 5px 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background-color: #fbfbfb;
+  margin: 8px;
+  color: black;
+  margin-bottom: 50px;
+  text-align: center;
+  transition: 0.5s
+}
+
+.card-white h3 {
+  font-size: 0%;
+  color: #fbfbfb;
+}
+
+.card-white:hover h3 {
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.card-white p {
+  font-size: 0%;
+  color: #fbfbfb;
+  transition: 0.5s;
+}
+
+.card-white:hover p {
+  font-size: 16px;
+}
+
+.card-white img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.card-white:hover {
+  transform: scale(1.07);
+  background-color: #5c5c5c;
+  color: white;
+  font-size: medium;
+}
+
+.card-white-landscape {
+  background-color: #fbfbfb;
+  margin: 0 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card-white-landscape img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.card-white-landscape:hover {
+  transform: scale(1.07);
+  background-color: #5c5c5c;
+  color: white;
+}
+
+#footer {
+  color: #5c5c5c;
+  padding: 20px 0;
+}
+
+#footer p {
+  font-size: 16px;
+}
+
+.cards-inline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.cards-inline-landscape {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media (max-width:960px) {
+  .container {
+    width: 900px;
+  }
+
+  .cards-inline {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width:720px) {
+  .container {
+    width: 680px;
+  }
+
+  .card-white img {
+    height: 400px;
+    width: 320px;
+  }
+
+  .cards-inline {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width:540px) {
+  .container {
+    width: 480px;
+  }
+
+  .card-white img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .cards-inline {
+    grid-template-columns: 1fr;
+  }
+}
